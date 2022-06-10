@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>headlink}}
+  </head>
+  <body>
+    {{>navbar}}
+
+    <!-- main container -->
+
+    <div class="container-fluid main_header">
+      <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class="row">
+            <!-- left part -->
+            <div class="col-md-6 col-12 main_header_right align-items-center">
+                <figure>
+                    <img src="../imagesweatherapp/profileimg.png" alt="Srijan" class="img-fluid"/>
+                </figure>
+               </div>
+               <!-- right part -->
+            <div class="col-md-6 col-12 main_header_left">
+              <p>This website is made by Me.</p>
+              <h2>To <span>know</span> about <span>Me</span> more click here</h2>
+              <a href="/" target="_blank" id="about_btn"><button>About Me</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    {{>footer}}
+  </body>
+</html>
